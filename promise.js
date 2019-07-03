@@ -1,3 +1,4 @@
+// Promise used for Asynchronous Execution
 
 let promise_obj= new Promise(function(resolve1,reject1){
    setTimeout(function () {
