@@ -1,3 +1,3 @@
 # Javascript_Learning
 
-Samples Javascript code to understand the Javascript Concepts.
+sample Javascript code to understand the Javascript Concepts.
