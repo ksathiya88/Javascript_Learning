@@ -1,7 +1,25 @@
 // Functions is the First Class Objects because
 // 1) It can be saved to a variable
 // 2) It can send as a parameter to a function.
-// 3) It can be returned from a variable
+// 3) It can be returned from a function
+
+
+// Functions in Javascript
+
+// 1st way
+
+function func() {
+   console.log("hello");
+}
+
+// 2nd way
+
+var func = function () {
+   console.log("hello");
+}
+
+func();
+
 
 // 1) It can be saved to a variable
 

@@ -1,3 +1,4 @@
+// Dynamic Typed language
 // Datatypes in Javascript
 // 1) number
 // 2) string
@@ -11,6 +12,9 @@
 // Primitives
 
 // number
+
+
+console.log("node", global);
 
 var num = 12;
 typeof num // number

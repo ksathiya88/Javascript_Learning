@@ -11,7 +11,9 @@ sample Javascript code to understand the Javascript Concepts.
 7. Lexical Scoping
 8. Scope Chain
 9. Scopes in Javascript
-10. Synchronos/Asynchronous
-11. Promises
-12. Event Loop
-13. Prototypes
+10. closures
+11. Synchronos/Asynchronous
+12. callbacks
+13. Promises
+14. Event Loop
+15. Prototypes

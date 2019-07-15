@@ -17,8 +17,10 @@ var func = function () {
     var a = 10;
     console.log("a value", a); //10 since the a is present
     //in this context
-    console.log("b value", b);// By means of scope chain
+    console.log("b value", b); // By means of scope chain
     // Javascript is able to get value from parent context
 };
+
+
 
 func();
