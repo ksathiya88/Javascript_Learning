@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("button").click(function () {
+        $.get("http://localhost:8081/getEmployees", function (data, status) {
+          console.log("Data: " + data);
+        });
+        for (i = 0; i < 100; i++) {
+          console.log("i", i);
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <button>Send an HTTP GET request to a page and get the result back</button>
+
+</body>
+
+</html>
